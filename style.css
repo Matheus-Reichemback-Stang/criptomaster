@@ -71,9 +71,10 @@ header button:hover{
 #about .container{
     display: block;
 }
-#about h3{
+#about h3, .products h3{
     font-size: 32px;
     margin-bottom: 24px;
+    color: #f5f6fa;
 }
 .content{
     display: flex;
@@ -88,7 +89,6 @@ header button:hover{
     padding-left: 24px;
     border-left: 1px solid #f5f6fa;
 }
-
 .parallax{
     display: flex;
     align-items: center;
@@ -102,10 +102,10 @@ header button:hover{
     position: relative;
     background-image: url("./img/hero.jpg");
 }
-.parallax h2{
+.parallax h2, .offer .container h2{
     font-size: 64px;
 }
-.parallax p{
+.parallax p, .offer .container p{
     font-size: 24px;
 }
 .parallax .container{
@@ -119,5 +119,89 @@ header button:hover{
     background-color:black;
     width: 100%;
     height: 100%;
-    opacity: 30%;
+    opacity: 40%;
+}
+.offer{
+    position: relative;
+    height: 100vh;
+    background-image: url("./img/bitcoin_background.png");
+}
+.offer .container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.offer .container div{
+    z-index: 1;
+    color: #f5f6fa;
+}
+.offer .container img{
+    height: 480px;
+}
+.offer .container h2{
+    margin-bottom: 32px;
+}
+.offer .container p{
+    font-style: italic;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.purchase-btn{
+    padding: 16px 24px;
+    margin-top: 16px;
+    font-family:"Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background-color: #3fcd2a;
+    color: #f5f6fa;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.purchase-btn:hover{
+    transition: all 0.3s;
+    color: #dcdde1;
+    background-color: #36a026;
+}
+
+.products{
+    background-color: #2f3640;
+    padding: 24px 0;
+}
+.content-dogecoin img{
+    height: 240px;
+}
+.content-dogecoin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f5f6fa;
+}
+.content-dogecoin h4{
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+.content-dogecoin button{
+    padding: 16px 32px;
+    width: 100%;
+    font-size: 24px;
+    border: none;
+    font-weight: bold;
+    font-family:"Roboto", sans-serif;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #f5f6fa;
+    background-color: transparent;
+    border: 1px solid #f5f6fa;
+    transition: all 0.3s;
+}
+.content-dogecoin button:hover{
+    color: #2f3640;
+    background-color: #f5f6fa;
+    transition: all 0.3s;
+}
+.content-dogecoin-text{
+    width: 700px
 }
