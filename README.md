@@ -1,5 +1,5 @@
 <!-- Título -->
-# CriptoMaste - Landing page
+# CriptoMaster - Landing page
 
 <!-- Link para página do projeto -->
 > Visite a página clicando [aqui](https://matheus-reichemback-stang.github.io/criptomaster/).
