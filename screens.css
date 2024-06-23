@@ -1,0 +1,306 @@
+@media screen and (max-width: 1024px) and (min-width: 768px){
+    .container{
+        width: 90%;
+    }
+    header button{
+        display: none;
+    }
+
+    .parallax{
+        height: 85vh;
+        background-image: url("./img/hero.jpg");
+    }
+    .parallax p, .offer .container p{
+        font-size: 28px;
+    }
+
+    #about .container{
+        display: block;
+    }
+    #about h3, .product h3{
+        font-size: 48px;
+    }
+    .content{
+        display: block;
+    }
+    .border-left{
+        padding-left: 0;
+        border-left: none;
+    }
+    .content p, .content-dogecoin p{
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+
+    .offer{
+        height: 85vh;
+        background-image: url("./img/bitcoin_background.png");
+    }
+    .offer .container {
+        height: 85vh;
+        flex-direction: column;
+        padding: 32px 0;
+    }
+    .offer .container .forPC {
+        display: none;
+    }
+    .offer .container .forMobile {
+        display: block;
+        text-align: center;
+    }
+    .shadow{
+        opacity: 45%;
+    }
+    .purchase-btn{
+        font-size: 48px;
+    }
+
+    .content-dogecoin img{
+        height: 480px;
+    }
+    .content-dogecoin{
+        flex-direction: column;
+    }
+    .content-dogecoin h4{
+        font-size: 40px;
+    }
+    .content-dogecoin button{
+        font-size: 40px;
+    }
+
+    #exchange{
+        background-image: url("./img/ethereum_background.jpeg");
+    }
+    #exchange .container{
+        flex-direction: column;
+        padding: 32px 0;
+    }
+
+    #contact .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .form h3{
+        font-size: 48px;
+        margin-bottom: 18px;
+    }
+    .form input{
+        padding: 12px 8px;
+        width: 100%;
+        font-size: 32px;
+    }
+    .form label{
+        font-size: 32px;
+    }
+    .form button{
+        padding: 16px 0;
+        font-size: 32px;
+    }
+
+    .social{
+        margin-top: 48px;
+        width: 100%;
+    }
+    .social-text h3{
+        font-size: 48px;
+        margin-bottom: 16px;
+    }
+    .social-text p{
+        font-size: 32px;
+    }
+    .social-links h4{
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+    .social-links li{
+        margin-left: 48px;
+    }
+    .social-links img{
+        transform: scale(2.3);
+    }
+    .social-links img:hover{
+        transform: scale(2.3);
+    }
+    
+    footer{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        width: 90%;
+    }
+    header button{
+        display: none;
+    }
+    header .container{
+        display: block;
+        text-align: center;
+    }
+    header h1{
+        margin-bottom: 24px;
+    }
+    header nav li{
+        text-align: center;
+        margin-right: 8px;
+        border: 1px solid white;
+        padding: 8px;
+    }
+
+    .parallax{
+        height: 100vh;
+        background-image: url("./img/hero.jpg");
+        background-position: 55% 45%;
+    }
+    .parallax h2, .offer .container h2{
+        font-size: 40px;
+    }
+    .parallax p, .offer .container p{
+        font-size: 16px;
+    }
+
+    #about .container{
+        display: block;
+    }
+    #about h3, .product h3{
+        font-size: 32px;
+    }
+    .content{
+        display: block;
+    }
+    .border-left{
+        padding-left: 0;
+        border-left: none;
+    }
+    .content p, .content-dogecoin p{
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+
+    .offer{
+        height: 100vh;
+        background-image: url("./img/bitcoin_background.png");
+    }
+    .offer .container {
+        height: 100vh;
+        flex-direction: column;
+        padding: 32px 0;
+    }
+    .offer .container img{
+        height: 248px;
+    }
+    .offer .container h2, .exchange-text h2{
+        margin-bottom: 24px;
+        font-size: 48px;
+    }
+    .offer .container .forPC {
+        display: none;
+    }
+    .offer .container .forMobile {
+        display: block;
+        text-align: center;
+    }
+    .offer .container p{
+        font-size: 24px;
+    }
+    .shadow{
+        opacity: 45%;
+    }
+    .purchase-btn, .exchange-text h2{
+        font-size: 32px;
+    }
+
+    .content-dogecoin img{
+        height: 328px;
+    }
+    .content-dogecoin{
+        flex-direction: column;
+    }
+    .content-dogecoin h4{
+        font-size: 24px;
+    }
+    .content-dogecoin button{
+        font-size: 24px;
+    }
+    .content-dogecoin-text{
+        width:100%;
+    }
+
+    #exchange{
+        background-image: url("./img/ethereum_background.jpeg");
+    }
+    #exchange .container{
+        flex-direction: column;
+        padding: 32px 0;
+    }
+    #exchange .container img{
+        height: 248px;
+    }
+    .exchange-text{
+        width: 100%;
+    }
+    .exchange-text p{
+        font-size: 18px;
+    }
+
+    #contact .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .form h3{
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+    .form input{
+        padding: 8px 6px;
+        width: 100%;
+        font-size: 24px;
+    }
+    .form label{
+        font-size: 24px;
+    }
+    .form button{
+        padding: 8px 0;
+        font-size: 24px;
+    }
+
+    .social{
+        margin-top: 48px;
+        width: 100%;
+    }
+    .social-text h3{
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .social-text p{
+        font-size: 24px;
+    }
+    .social-links h4{
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .social-links li{
+        margin-left: 24px;
+    }
+    .social-links img{
+        transform: scale(1.5);
+    }
+    .social-links img:hover{
+        transform: scale(1.5);
+    }
+    
+    footer{
+        font-size: 16px;
+    }
+}

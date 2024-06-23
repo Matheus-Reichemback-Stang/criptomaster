@@ -82,10 +82,6 @@ header button:hover{
     align-items: center;
     justify-content: space-between;
 }
-.content{
-    display: flex;
-    align-items: center;
-}
 .border-left{
     padding-left: 24px;
     border-left: 1px solid #f5f6fa;
@@ -98,6 +94,7 @@ header button:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: 50% 50%;
     color: #f5f6fa;
     text-align: center;
     position: relative;
@@ -150,6 +147,9 @@ header button:hover{
     font-style: italic;
     font-size: 32px;
     margin-bottom: 16px;
+}
+.offer .container .forMobile {
+    display: none;
 }
 .purchase-btn{
     padding: 16px 24px;
