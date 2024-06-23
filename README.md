@@ -27,7 +27,16 @@ O ***CSS***(Cascading Style Sheets) é uma linguagem utilizada para construir o 
 
 # Changelog
 
-Abaixo, está as mudanças do histório do código.
+Abaixo estão as mudanças de cada versão do site(página).
+
+## [0.0.2] - 2024-06-23
+### Added
+- screens.css - arquivo que aplica o design responsivo para telas de **celulares** e **tablets**. 
+
+### Added/Changed
+- index.html - criado container de conteúdo para a *CSS Responsivo* de **celulares** e **tablets**.
+
+---
 
 ## [0.0.1] - 2024-06-17
 ### Added
